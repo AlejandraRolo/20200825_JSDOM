@@ -1,0 +1,68 @@
+/*
+*{
+    margin: 0;
+    margin: 0px auto;   /*Centra el elemento en el contenedor html
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(156, 43, 153);
+}
+
+.cambio1{
+    width: 500px;
+    height: 500px;
+    background-color:lightslategray;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+}
+
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.miniCaja{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.color1{
+    background-color: yellow;
+}
+.color2{
+    background-color: blue;
+}
+.color3{
+    background-color: gray;
+}
+.color4{
+    background-color: green;
+}
+.color5{
+    background-color: purple;
+}
+.color6{
+    background-color: magenta;
+}
+.color7{
+    background-color: cyan;
+}
+.color8{
+    background-color: darkorchid;
+}
+.color9{
+    background-color: orange;
+}
